@@ -1,0 +1,14 @@
+[[source]]
+name = "pypi"
+verify_ssl = true
+url = "https://pypi.org/simple"
+
+[requires]
+python_version = "3.4"
+
+[dev-packages]
+
+[packages]
+flask = "*"
+pyserial = "*"
+flask-apscheduler = "*"
