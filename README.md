@@ -21,6 +21,8 @@ Once it receives the handshake from OIS, it registers a few commands and starts 
 
 If you browse to the HTTP server running on http://127.0.0.1:5000/, you'll be presented with a (currently) unstyled collection of data values.
 
+![screenshot](https://raw.githubusercontent.com/pandincus/ois-service/master/ois_updater.PNG)
+
 # usage
 
 You first need to set up a virtual com port pair on your computer.
@@ -69,3 +71,7 @@ sudo chmod 666 /dev/ttyS4
 ```
 
 Try that and see if it's able to connect.
+
+# disclaimer
+
+I'm new to Python and Flask, so I'm positively making multiple newbie mistakes. Send me a note and I'll improve things :-)
